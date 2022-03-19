@@ -18,8 +18,11 @@ var register = new Schema({
       type:String
     },
     age:Number,
+        
+    
+},{
+       versionKey :false
    
-
 })
 
-module.exports = mongoose.model("userRegister",register);
+module.exports = mongoose.model("users",register);
